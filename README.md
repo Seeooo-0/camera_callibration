@@ -5,7 +5,7 @@
 - 💡 Using python & OpenCV
 - 🎡 It is a code implemented through **ChatGPT** referring to the class time code.  
 - The video I filmed is as follows.
-  - ![KakaoTalk_20230515_185706678](https://github.com/Seeooo-0/camera_callibration/assets/90232567/32e00716-c812-4d64-94fc-fc7b34554459)
+  - ![KakaoTalk_20230515_185706678](https://github.com/Seeooo-0/camera_callibration/assets/90232567/2bb0951b-b3be-4c3b-8c44-7a14372e8eba)
 - Camera matrix, Distortion coefficient
 
 ```
