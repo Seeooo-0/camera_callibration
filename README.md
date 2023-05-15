@@ -5,7 +5,20 @@
 - 💡 Using python & OpenCV
 - 🎡 It is a code implemented through **ChatGPT** referring to the class time code.  
 - The video I filmed is as follows.
-  - <img width="143" alt="chess" src="https://user-images.githubusercontent.com/90232567/235601289-613cc91b-5ea1-479c-8e52-dde6d1663952.png">
-- 🚀 The results of executing the code are as follows.
-  - <img width="539" alt="chess_pic" src="https://user-images.githubusercontent.com/90232567/235597648-528b005b-6b26-49c0-90d3-ae3811b733a9.png">
-- To be honest, I didn't understand the camera calibration part very well...ㅎㅎ! super difficult....ㅠㅠ
+  - ![KakaoTalk_20230515_185706678](https://github.com/Seeooo-0/camera_callibration/assets/90232567/32e00716-c812-4d64-94fc-fc7b34554459)
+- Camera matrix, Distortion coefficient
+
+```
+## Camera Calibration Results
+* The number of selected images = 2
+* RMS error = 1.6653035177858788
+* Camera matrix (K) = 
+* [[2.94749334e+03, 0.00000000e+00, 6.10563947e+02],
+  [0, 2.94478350e+03, 3.25682941e+02],
+  [00.00000000e+00, 0.00000000e+00, 1.00000000e+00]]
+* Distortion coefficient (k1, k2, p1, p2, k3, ...) = [-1.18716673e+00,  5.11612278e+01,  8.58489735e-03,  1.19015586e-03, -8.64504808e+02]
+```
+- 🚀 The results of executing the **'calliration'** code are as follows.
+  - ![KakaoTalk_20230515_182115909_01](https://github.com/Seeooo-0/camera_callibration/assets/90232567/937acbba-a7f6-4bec-839b-b4319a1a56aa)
+- 🚀 The results of executing the **'pose estimate'** code are as follows.
+  - ![KakaoTalk_20230515_182115909](https://github.com/Seeooo-0/camera_callibration/assets/90232567/c4f173ed-331d-4a20-ac50-24a649686de5)
